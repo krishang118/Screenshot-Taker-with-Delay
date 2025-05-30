@@ -1,6 +1,6 @@
 # Screenshot Taker with Delay
 
-A Selenium-based Chrome extension that allows the user to take a screenshot of the active tab after a customizable delay.
+A Chrome extension, developed using Chrome Extensions API, that allows the user to take a screenshot of the active tab after a customizable delay.
 
 ## Installation (as an unpacked extension)
 

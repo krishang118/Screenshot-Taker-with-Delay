@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Screenshot Taker with Delay",
+  "version": "1.0",
+  "description": "Take a screenshot of the visible tab after a customizable delay.",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "downloads"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

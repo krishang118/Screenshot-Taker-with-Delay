@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Screenshot Taker</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      padding: 15px;
+      width: 250px;
+      margin: 0;
+    }
+    h2 {
+      margin: 0 0 15px 0;
+      font-size: 16px;
+      color: #333;
+    }
+    .input-group {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }  
+    label {
+      font-size: 14px;
+      margin-right: 10px;
+      color: #555;
+    }
+    input {
+      width: 60px;
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+    }   
+    button {
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      width: 100%;
+    }
+    
+    button:hover {
+      background-color: #3367d6;
+    }  
+    .info {
+      font-size: 12px;
+      color: #666;
+      margin-top: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h2>Screenshot Taker</h2>
+  <div class="input-group">
+    <label for="delay">Delay (seconds):</label>
+    <input type="number" id="delay" value="3" min="0" max="60">
+  </div>
+  <button id="takeScreenshot">Take Screenshot</button>
+  <script src="popup.js"></script>
+</body>
+</html>

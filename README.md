@@ -6,8 +6,8 @@ A Chrome extension, developed using Chrome Extensions API, that allows the user 
 
 1.  Clone this repository to your local machine.
 2.  Open Google Chrome and go to `chrome://extensions/`.
-3.  Enable "Developer mode" by toggling the switch in the top right corner.
-4.  Click the "Load unpacked" button in the top left corner.
+3.  Enable 'Developer mode' by toggling the switch in the top right corner.
+4.  Click the 'Load unpacked' button in the top left corner.
 5.  Select the directory where you downloaded/cloned the files.
 
 The extension should now appear in your list of installed extensions and its icon will be visible in the Chrome toolbar.
@@ -16,8 +16,8 @@ The extension should now appear in your list of installed extensions and its ico
 
 1.  Click on the Screenshot Taker extension icon in the Chrome toolbar.
 2.  A small popup will appear.
-3.  Enter the desired delay in seconds (e.g., 5 for a 5-second delay).
-4.  Click the "Take Screenshot" button.
+3.  Enter the desired delay, in seconds (e.g., 5 for a 5-second delay).
+4.  Click the 'Take Screenshot' button.
 5.  The popup will close, and after the specified delay, the extension will take a screenshot of the visible part of your current tab and download it automatically.
 
 ## Files

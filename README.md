@@ -4,7 +4,7 @@ A Chrome extension, developed using Chrome Extensions API, that allows the user 
 
 ## Installation (as an unpacked extension)
 
-1.  Clone this repository to your local machine.
+1.  Clone this repository on your local machine.
 2.  Open Google Chrome and go to `chrome://extensions/`.
 3.  Enable 'Developer mode' by toggling the switch in the top right corner.
 4.  Click the 'Load unpacked' button in the top left corner.
